@@ -1,94 +1,472 @@
 {
-  "response" : [
-  {
-    "_id": "5e6061071e92adeda9ff3195",
-    "balance": "$2,202.46",
-    "picture": "https://i.picsum.photos/id/511/200/300.jpg",
-    "name": {
-      "first": "Marissa",
-      "last": "Estes"
-    }
-  },
-  {
-    "_id": "5e606107ad05ba2411de590b",
-    "balance": "$2,575.77",
-    "picture": "https://i.picsum.photos/id/123/200/300.jpg",
-    "name": {
-      "first": "Nichole",
-      "last": "Tyson"
-    }
-  },
-  {
-    "_id": "5e606107485ae03f7dd21220",
-    "balance": "$1,206.28",
-    "picture": "https://i.picsum.photos/id/299/200/300.jpg",
-    "name": {
-      "first": "Leonard",
-      "last": "Marks"
-    }
-  },
-  {
-    "_id": "5e606107b6cb34957851732b",
-    "balance": "$1,214.02",
-    "picture": "https://i.picsum.photos/id/6/200/300.jpg",
-    "name": {
-      "first": "Vanessa",
-      "last": "Bradford"
-    }
-  },
-  {
-    "_id": "5e606107ae7cdb31c0ecce97",
-    "balance": "$2,157.97",
-    "picture": "https://i.picsum.photos/id/517/200/300.jpg",
-    "name": {
-      "first": "Shaw",
-      "last": "Pearson"
-    }
-  },
-  {
-    "_id": "5e60610713cc52a68662b576",
-    "balance": "$2,860.41",
-    "picture": "https://i.picsum.photos/id/822/200/300.jpg",
-    "name": {
-      "first": "Quinn",
-      "last": "Chan"
-    }
-  },
-  {
-    "_id": "5e6061075637f43b92cd7460",
-    "balance": "$3,082.46",
-    "picture": "https://i.picsum.photos/id/616/200/300.jpg",
-    "name": {
-      "first": "Joan",
-      "last": "Coleman"
-    }
-  },
-  {
-    "_id": "5e606107e8aa1a7fa946bd7d",
-    "balance": "$2,679.32",
-    "picture": "https://i.picsum.photos/id/558/200/300.jpg",
-    "name": {
-      "first": "Donovan",
-      "last": "Hudson"
-    }
-  },
-  {
-    "_id": "5e606107ffd9427f7c1bc710",
-    "balance": "$3,791.24",
-    "picture": "https://picsum.photos/200/300",
-    "name": {
-      "first": "Mcguire",
-      "last": "Ramirez"
-    }
-  },
-  {
-    "_id": "5e606107cd61b5808ed7163b",
-    "balance": "$3,143.36",
-    "picture": "https://picsum.photos/200/300",
-    "name": {
-      "first": "Avis",
-      "last": "Bates"
-    }
-  }
-]
+	"Sagas": [{
+			"name": "East Blue",
+			"arcs": [{
+					"Arcs": "Romance Dawn",
+					"Chapter_Start": 1,
+					"Chapter_End": 7,
+					"Episode_Start": "1",
+					"Episode_End": "3",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Orange Town",
+					"Chapter_Start": 8,
+					"Chapter_End": 21,
+					"Episode_Start": "4",
+					"Episode_End": "8",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Syrup Village",
+					"Chapter_Start": 22,
+					"Chapter_End": 41,
+					"Episode_Start": "9",
+					"Episode_End": "18",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Baratie",
+					"Chapter_Start": 42,
+					"Chapter_End": 68,
+					"Episode_Start": "19",
+					"Episode_End": "30",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Arlong Park",
+					"Chapter_Start": 69,
+					"Chapter_End": 95,
+					"Episode_Start": "31",
+					"Episode_End": "44",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Loguetown",
+					"Chapter_Start": 96,
+					"Chapter_End": 100,
+					"Episode_Start": "45,48",
+					"Episode_End": "45,53",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Buggy's Crew Adventure Chronicles",
+					"Chapter_Start": 35,
+					"Chapter_End": 75,
+					"Episode_Start": "46",
+					"Episode_End": "47",
+					"Type": "covers"
+				},
+				{
+					"Arcs": "Warship Island",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "54",
+					"Episode_End": "61",
+					"Type": "filler"
+				}
+			]
+		}, {
+			"name": "Alabasta",
+			"arcs": [{
+					"Arcs": "Reverse Mountain",
+					"Chapter_Start": 101,
+					"Chapter_End": 105,
+					"Episode_Start": "62",
+					"Episode_End": "63",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Whisky Peak",
+					"Chapter_Start": 106,
+					"Chapter_End": 114,
+					"Episode_Start": "64",
+					"Episode_End": "67",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Diary ofKoby-Meppo",
+					"Chapter_Start": 89,
+					"Chapter_End": 119,
+					"Episode_Start": "68",
+					"Episode_End": "69",
+					"Type": "covers"
+				},
+				{
+					"Arcs": "Little Garden",
+					"Chapter_Start": 115,
+					"Chapter_End": 129,
+					"Episode_Start": "70",
+					"Episode_End": "77",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Drum Island",
+					"Chapter_Start": 130,
+					"Chapter_End": 154,
+					"Episode_Start": "78",
+					"Episode_End": "91",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Alabasta",
+					"Chapter_Start": 155,
+					"Chapter_End": 217,
+					"Episode_Start": "92",
+					"Episode_End": "130",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Post-Alabasta",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "131",
+					"Episode_End": "135",
+					"Type": "filler"
+				}
+			]
+		}, {
+			"name": "Sky Island",
+			"arcs": [{
+					"Arcs": "Goat Island",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "136",
+					"Episode_End": "138",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Ruluka Island",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "139",
+					"Episode_End": "143",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Jaya",
+					"Chapter_Start": 218,
+					"Chapter_End": 236,
+					"Episode_Start": "144",
+					"Episode_End": "152",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Skypiea",
+					"Chapter_Start": 237,
+					"Chapter_End": 302,
+					"Episode_Start": "153",
+					"Episode_End": "195",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "G-8",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "196",
+					"Episode_End": "206",
+					"Type": "filler"
+				}
+			]
+		},
+		{
+			"name": "Water 7",
+			"arcs": [{
+					"Arcs": "Long Ring Long Land",
+					"Chapter_Start": 303,
+					"Chapter_End": 321,
+					"Episode_Start": "207",
+					"Episode_End": "219",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Ocean's Dream",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "220",
+					"Episode_End": "224",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Foxy's Return\t",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "225",
+					"Episode_End": "228",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Water 7",
+					"Chapter_Start": 322,
+					"Chapter_End": 374,
+					"Episode_Start": "229",
+					"Episode_End": "263",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Enies Lobby",
+					"Chapter_Start": 375,
+					"Chapter_End": 430,
+					"Episode_Start": "264,293,304",
+					"Episode_End": "290,302,312",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Boss Luffy Historical Special\t",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "292,303,406",
+					"Episode_End": "292,303,407",
+					"Type": "special"
+				},
+				{
+					"Arcs": "Post-Enies Lobby",
+					"Chapter_Start": 431,
+					"Chapter_End": 441,
+					"Episode_Start": "313",
+					"Episode_End": "325",
+					"Type": "canon"
+				}
+			]
+		}, {
+			"name": "Thriller Bark",
+			"arcs": [{
+					"Arcs": "Ice Hunter",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "326",
+					"Episode_End": "335",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Chopper Man Special",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "336",
+					"Episode_End": "336",
+					"Type": "special"
+				},
+				{
+					"Arcs": "Thriller Bark",
+					"Chapter_Start": 442,
+					"Chapter_End": 489,
+					"Episode_Start": "337",
+					"Episode_End": "381",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Spa Island",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "382",
+					"Episode_End": "384",
+					"Type": "filler"
+				}
+			]
+		}, {
+			"name": "Summit War",
+			"arcs": [{
+					"Arcs": "Sabaody Archipelago",
+					"Chapter_Start": 490,
+					"Chapter_End": 513,
+					"Episode_Start": "385",
+					"Episode_End": "405",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Amazon Lily",
+					"Chapter_Start": 514,
+					"Chapter_End": 524,
+					"Episode_Start": "408",
+					"Episode_End": "417",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Straw Hat's Separation Serial",
+					"Chapter_Start": 543,
+					"Chapter_End": 560,
+					"Episode_Start": "418,453",
+					"Episode_End": "421,456",
+					"Type": "covers"
+				},
+				{
+					"Arcs": "Impel Down",
+					"Chapter_Start": 525,
+					"Chapter_End": 549,
+					"Episode_Start": "422,430",
+					"Episode_End": "425,452",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Little East Blue",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "426",
+					"Episode_End": "429",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Marineford",
+					"Chapter_Start": 550,
+					"Chapter_End": 580,
+					"Episode_Start": "457",
+					"Episode_End": "489",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Post-War",
+					"Chapter_Start": 581,
+					"Chapter_End": 597,
+					"Episode_Start": "490,493",
+					"Episode_End": "491,516",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Toriko Crossover",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "492",
+					"Episode_End": "492",
+					"Type": "special"
+				}
+			]
+		}, {
+			"name": "Fish-Man Island",
+			"arcs": [{
+					"Arcs": "Return to Sabaody",
+					"Chapter_Start": 598,
+					"Chapter_End": 602,
+					"Episode_Start": "517",
+					"Episode_End": "522",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Fish-Man Island",
+					"Chapter_Start": 603,
+					"Chapter_End": 653,
+					"Episode_Start": "523,543",
+					"Episode_End": "541,574",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Toriko Crossover",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "542",
+					"Episode_End": "542",
+					"Type": "special"
+				}
+			]
+		}, {
+			"name": "Dressrosa",
+			"arcs": [{
+					"Arcs": "Z's Ambition",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "575",
+					"Episode_End": "578",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Punk Hazard",
+					"Chapter_Start": 654,
+					"Chapter_End": 699,
+					"Episode_Start": "579,591",
+					"Episode_End": "589,625",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Toriko & Dragon Ball Crossover",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "590",
+					"Episode_End": "590",
+					"Type": "special"
+				},
+				{
+					"Arcs": "Caesar Retrieval",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "626",
+					"Episode_End": "628",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Dressrosa",
+					"Chapter_Start": 700,
+					"Chapter_End": 801,
+					"Episode_Start": "629",
+					"Episode_End": "746",
+					"Type": "canon"
+				}
+			]
+		}, {
+			"name": "Four Emperors",
+			"arcs": [{
+					"Arcs": "Silver Mine",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "747",
+					"Episode_End": "750",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Zou",
+					"Chapter_Start": 802,
+					"Chapter_End": 824,
+					"Episode_Start": "751",
+					"Episode_End": "779",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Marine Rookie",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "780",
+					"Episode_End": "782",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Whole Cake Island",
+					"Chapter_Start": 825,
+					"Chapter_End": 902,
+					"Episode_Start": "878",
+					"Episode_End": "889",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Levely",
+					"Chapter_Start": 903,
+					"Chapter_End": 908,
+					"Episode_Start": "878",
+					"Episode_End": "889",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Wano Country",
+					"Chapter_Start": 909,
+					"Chapter_End": null,
+					"Episode_Start": "890,897,908",
+					"Episode_End": "894,906,TBA",
+					"Type": "canon"
+				},
+				{
+					"Arcs": "Cidre Guild",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "895",
+					"Episode_End": "896",
+					"Type": "filler"
+				},
+				{
+					"Arcs": "Anime 20th Anniversary special",
+					"Chapter_Start": null,
+					"Chapter_End": null,
+					"Episode_Start": "907",
+					"Episode_End": "907",
+					"Type": "special"
+				}
+			]
+		}
+	]
 }
